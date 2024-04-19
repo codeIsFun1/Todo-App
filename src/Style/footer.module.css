@@ -1,0 +1,14 @@
+.footerContainer{
+    position: fixed;
+    bottom: 0;
+    background-color: papayawhip;
+    width: 100%;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+    align-items: center;
+}
+.footerContainer>span{
+    margin: 0 1rem;
+}

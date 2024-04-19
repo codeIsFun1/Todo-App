@@ -1,0 +1,39 @@
+.todoitem_container {
+  width: 100%;
+  /* display: flex;
+  align-items:center; */
+  display: grid;
+  grid-template-columns: 70% 30%;
+
+}
+.todoitem_container > div {
+  /* margin-bottom: 1rem; */
+  padding: 0.5em;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.todoitem_container > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.todoitem_container > span>button{
+    width: 2rem;
+    padding: 0.3em;
+    outline: none;
+    border: none;
+    background-color: #000;
+    color:#fff;
+    transition: all 0.5s ease-in;
+}
+.todoitem_container > span>button:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid snow;
+}
+
+.completed{
+    text-decoration: line-through;
+}

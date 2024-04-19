@@ -1,0 +1,9 @@
+.todo_container {
+  width: 100%;
+  min-height: 86vh;
+  display: flex;
+  justify-content: start;
+  background-color: #fff;
+  align-items: center;
+  flex-direction: column;
+}
